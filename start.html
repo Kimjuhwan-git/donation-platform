@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>함께 만드는 우리 동네</title>
+
+    <link rel="stylesheet" href="start.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="phone">
+
+    <!-- 상단 -->
+    <header>
+        <h1>함께 만드는 우리 동네</h1>
+        <p>후원하고 싶은 프로젝트를 선택해 주세요.</p>
+    </header>
+
+    <!-- 카테고리 -->
+    <div class="category-menu">
+
+    <button class="active" data-filter="전체">전체</button>
+    <button data-filter="교통">교통</button>
+    <button data-filter="환경">환경</button>
+    <button data-filter="안전">안전</button>
+    <button data-filter="복지">복지</button>
+
+    </div>
+
+    <!-- 카드1 -->
+    <div class="card" data-category="교통">
+
+        <img src="images/traffic.png">
+
+        <div class="content">
+
+            <span class="category traffic">
+                🚸 교통
+            </span>
+
+            <h2>횡단보도 LED 바닥신호등 설치</h2>
+
+            <div class="progress">
+
+                <div class="bar" style="width:76%"></div>
+
+            </div>
+
+            <div class="money">
+
+                <span>15,200,000원</span>
+
+                <span>20,000,000원</span>
+
+            </div>
+
+            <button
+            class="projectBtn"
+            data-project="traffic">
+
+            프로젝트 보기 →
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- 카드2 -->
+
+    <div class="card" data-category="환경">
+
+        <img src="images/environment.png">
+
+        <div class="content">
+
+            <span class="category environment">
+                🌳 환경
+            </span>
+
+            <h2>공원 벤치 설치</h2>
+
+            <div class="progress">
+
+                <div class="bar" style="width:45%"></div>
+
+            </div>
+
+            <div class="money">
+
+                <span>9,000,000원</span>
+
+                <span>20,000,000원</span>
+
+            </div>
+
+            <button
+            class="projectBtn"
+            data-project="environment">
+
+            프로젝트 보기 →
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- 카드3 -->
+
+    <div class="card" data-category="안전">
+
+        <img src="images/safety.png">
+
+        <div class="content">
+
+            <span class="category safety">
+                🛡 안전
+            </span>
+
+            <h2>골목길 CCTV 설치</h2>
+
+            <div class="progress">
+
+                <div class="bar" style="width:82%"></div>
+
+            </div>
+
+            <div class="money">
+
+                <span>16,400,000원</span>
+
+                <span>20,000,000원</span>
+
+            </div>
+
+            <button
+            class="projectBtn"
+            data-project="safety">
+
+            프로젝트 보기 →
+
+            </button>
+        </div>
+
+    </div>
+
+    <!-- 카드4 -->
+
+    <div class="card" data-category="복지">
+
+        <img src="images/welfare.png">
+
+        <div class="content">
+
+            <span class="category welfare">
+                👵 복지
+            </span>
+
+            <h2>독거노인 냉방 지원</h2>
+
+            <div class="progress">
+
+                <div class="bar" style="width:58%"></div>
+
+            </div>
+
+            <div class="money">
+
+                <span>11,600,000원</span>
+
+                <span>20,000,000원</span>
+
+            </div>
+
+            <button
+            class="projectBtn"
+            data-project="welfare">
+
+            프로젝트 보기 →
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="start.js"></script>
+
+</body>
+</html>
