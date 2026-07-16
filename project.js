@@ -123,8 +123,9 @@ ${payMethod}
         if(ok){
 
             // 나중에 실제 결제 API 호출
+            //window.location.href = "complete.html";
 
-            window.location.href = "complete.html";
+            window.location.href = "beta_complete.html";
 
         }
 
