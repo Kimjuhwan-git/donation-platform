@@ -355,3 +355,39 @@ h3{
 .donateBtn:active{
     transform:translateY(0);
 }
+/* 추가 설문 버튼 */
+
+.extraSurveyBtn{
+    width:100%;
+    max-width:400px;
+
+    margin:15px auto;
+    display:block;
+
+    padding:16px;
+
+    border:2px solid #cfcfcf;
+
+    border-radius:12px;
+
+    background:#ffffff;
+    color:#18b45a;
+
+    font-size:18px;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:all .2s ease;
+}
+
+.extraSurveyBtn:hover{
+    background:#f8f8f8;
+    border-color:#18b45a;
+    transform:translateY(-2px);
+}
+
+.extraSurveyBtn:active{
+    transform:translateY(0);
+    box-shadow:0 2px 4px rgba(0,0,0,0.15);
+}
