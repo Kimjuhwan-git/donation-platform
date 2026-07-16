@@ -96,3 +96,18 @@ donateBtn.addEventListener("click", function () {
     window.location.href = "index.html";
 
 });
+
+// ================================
+// 추가 설문 이동
+// ================================
+
+const extraSurveyBtn = document.getElementById("extraSurveyBtn");
+
+extraSurveyBtn.addEventListener("click", function () {
+
+    window.open(
+        "https://docs.google.com/forms/d/e/1FAIpQLSe9mkl8dYH7uoBApdMSBRYsHocQQLJDVvlHdA-MpDqwBYRGlg/viewform?usp=publish-editor",
+        "_blank"
+    );
+
+});
