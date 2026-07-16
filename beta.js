@@ -42,12 +42,12 @@ const formURL =
 const formData = new FormData();
 
 formData.append(
-    "entry.1713239875",
+    "entry.981646072",
     easy.parentNode.innerText.trim()
 );
 
 formData.append(
-    "entry.981646072",
+    "entry.1713239875",
     join.parentNode.innerText.trim()
 );
 
