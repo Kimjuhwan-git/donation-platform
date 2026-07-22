@@ -28,99 +28,97 @@
 
     </header>
 
+
     <!-- 프로젝트 이미지 -->
-
     <img
-    class="projectImage"
-    id="projectImage"
-    src=""
-    alt="프로젝트 이미지">
+        class="projectImage"
+        id="projectImage"
+        src=""
+        alt="프로젝트 이미지">
 
-    <!-- 내용 -->
 
+    <!-- 프로젝트 기본 정보 -->
     <section class="projectCard">
 
-        <span class="category">
-            🚸 교통
+        <!-- 카테고리 -->
+        <span class="category" id="projectCategory">
         </span>
 
-        <h2>
-            횡단보도 LED 바닥신호등 설치
+        <!-- 프로젝트 제목 -->
+        <h2 id="projectTitle">
         </h2>
 
-        <p class="subTitle">
-
-            야간 교통사고 예방을 위해
-            LED 바닥신호등을 설치하는 프로젝트입니다.
-
+        <!-- 프로젝트 한 줄 설명 -->
+        <p class="subTitle" id="projectSubTitle">
         </p>
 
-        <!-- 진행률 -->
 
+        <!-- 진행률 -->
         <div class="progressArea">
 
             <div class="money">
 
-                <div>
+    <div>
 
-                    <p>현재 모금액</p>
+        <p>현재 모금액</p>
 
-                    <h3>15,200,000원</h3>
+        <h3 id="currentAmount">
+            0원
+        </h3>
 
-                </div>
+    </div>
 
-                <div class="goal">
+    <div class="goal">
 
-                    목표
+        목표
 
-                    <br>
+        <br>
 
-                    20,000,000원
+        <span id="goalAmount">
+            0원
+        </span>
 
-                </div>
+    </div>
 
-            </div>
+</div>
 
-            <div class="progress">
 
-                <div class="bar"></div>
+<div class="progress">
 
-            </div>
+    <div
+        class="bar"
+        id="progressBar">
+    </div>
 
-            <div class="percent">
+</div>
 
-                76% 달성
 
-                ·
+<div
+    class="percent"
+    id="projectPercent">
 
-                824명이 함께했습니다.
+    0% 달성 · 0명이 함께했습니다.
 
-            </div>
+</div>
 
         </div>
 
     </section>
 
-    <!-- 프로젝트 설명 -->
 
+    <!-- 프로젝트 설명 -->
     <section class="descriptionCard">
 
         <h3>프로젝트 소개</h3>
 
-        <p>
-
-            야간에는 스마트폰을 보며 횡단보도를 건너는 보행자가 많아
-            교통사고 위험이 높습니다.
-
-            시민 여러분의 후원으로
-            LED 바닥신호등을 설치하여
-            안전한 보행환경을 만들고자 합니다.
-
+        <p id="projectDescription">
         </p>
 
     </section>
 
+
     <!-- 후원금 선택 -->
+    <!-- 모든 카테고리 동일 -->
 
     <section class="donationCard">
 
@@ -149,7 +147,9 @@
 
     </section>
 
+
     <!-- 결제 -->
+    <!-- 모든 카테고리 동일 -->
 
     <section class="paymentCard">
 
@@ -176,6 +176,7 @@
     </section>
 
 </div>
+
 
 <script src="project.js"></script>
 
