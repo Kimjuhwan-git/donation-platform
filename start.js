@@ -42,26 +42,18 @@ filterButtons.forEach(button => {
 // 프로젝트 보기 버튼
 // ------------------------------
 
-const projectButtons = document.querySelectorAll(".projectBtn");
+const projectButtons =
+    document.querySelectorAll(".projectBtn");
 
-projectButtons.forEach(button=>{
+projectButtons.forEach(button => {
 
-    button.addEventListener("click",()=>{
+    button.addEventListener("click", function () {
 
-        const projectButtons = document.querySelectorAll(".projectBtn");
-
-projectButtons.forEach(button=>{
-
-    button.addEventListener("click",()=>{
-
-        const project = button.dataset.project;
+        const projectType =
+            this.getAttribute("data-project");
 
         window.location.href =
-        `project.html?category=${project}`;
-
-    });
-
-});
+            "project.html?project=" + projectType;
 
     });
 
